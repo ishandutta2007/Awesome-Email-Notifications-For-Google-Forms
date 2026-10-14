@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/bagge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Email-Notifications-For-Google-Forms/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Email-Notifications-For-Google-Forms?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Email-Notifications-For-Google-Forms/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Email-Notifications-For-Google-Forms?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Email-Notifications-For-Google-Forms/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Email-Notifications-For-Google-Forms?style=social" alt="GitHub forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Email-Notifications-For-Google-Forms/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -59,31 +59,31 @@ The table below provides a competitive comparison of top SaaS platforms and Goog
 
 Explore battle-tested open-source repositories, Google Apps Script architectures, and self-hosted form and workflow automation software with native email notification pipelines. Sorted in descending order of GitHub community stars.
 
-1. **[n8n](https://github.com/n8n-io/n8n)** [![GitHub stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers)  
+1. **[n8n](https://github.com/n8n-io/n8n)** [![GitHub_Stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers)  
    Fair-code licensed visual workflow automation platform. Offers pre-built nodes for Google Forms and Google Sheets with instant Gmail/SMTP notifications, complex conditional branching, and webhook triggers with no execution limits.
 
-2. **[Activepieces](https://github.com/activepieces/activepieces)** [![GitHub stars](https://img.shields.io/github/stars/activepieces/activepieces?style=social&color=white)](https://github.com/activepieces/activepieces/stargazers)  
+2. **[Activepieces](https://github.com/activepieces/activepieces)** [![GitHub_Stars](https://img.shields.io/github/stars/activepieces/activepieces?style=social&color=white)](https://github.com/activepieces/activepieces/stargazers)  
    Open-source, no-code business automation tool alternative to Zapier. Features turnkey pieces for Google Forms and Google Sheets that listen for new responses and fire automated personalized HTML emails via Gmail, SendGrid, or AWS SES.
 
-3. **[Formbricks](https://github.com/formbricks/formbricks)** [![GitHub stars](https://img.shields.io/github/stars/formbricks/formbricks?style=social&color=white)](https://github.com/formbricks/formbricks/stargazers)  
+3. **[Formbricks](https://github.com/formbricks/formbricks)** [![GitHub_Stars](https://img.shields.io/github/stars/formbricks/formbricks?style=social&color=white)](https://github.com/formbricks/formbricks/stargazers)  
    Open-source survey and experience management suite. A privacy-first alternative to Google Forms that includes out-of-the-box email notification triggers, webhooks, and team collaboration workflows.
 
-4. **[HeyForm](https://github.com/heyform/heyform)** [![GitHub stars](https://img.shields.io/github/stars/heyform/heyform?style=social&color=white)](https://github.com/heyform/heyform/stargazers)  
+4. **[HeyForm](https://github.com/heyform/heyform)** [![GitHub_Stars](https://img.shields.io/github/stars/heyform/heyform?style=social&color=white)](https://github.com/heyform/heyform/stargazers)  
    Open-source conversational form builder. Features customizable email notifications on form submission, conditional submission logic, and direct integrations with popular messaging and email services.
 
-5. **[OhMyForm](https://github.com/ohmyform/ohmyform)** [![GitHub stars](https://img.shields.io/github/stars/ohmyform/ohmyform?style=social&color=white)](https://github.com/ohmyform/ohmyform/stargazers)  
+5. **[OhMyForm](https://github.com/ohmyform/ohmyform)** [![GitHub_Stars](https://img.shields.io/github/stars/ohmyform/ohmyform?style=social&color=white)](https://github.com/ohmyform/ohmyform/stargazers)  
    Open-source form builder alternative to Typeform and Google Forms. Includes native email alerts upon submission, webhook payloads, 11 question types, and Docker/Heroku deployment targets with PostgreSQL/SQLite.
 
-6. **[Google Forms Apps Script Email Utilities](https://github.com/labnol/google-forms)** [![GitHub stars](https://img.shields.io/github/stars/labnol/google-forms?style=social&color=white)](https://github.com/labnol/google-forms/stargazers)  
+6. **[Google Forms Apps Script Email Utilities](https://github.com/labnol/google-forms)** [![GitHub_Stars](https://img.shields.io/github/stars/labnol/google-forms?style=social&color=white)](https://github.com/labnol/google-forms/stargazers)  
    Collection of Google Apps Script automation scripts by Amit Agarwal for Google Forms. Includes scripts to send custom respondent confirmations, generate dynamic PDF attachments from submissions, and manage email quotas.
 
-7. **[Google Forms Email Sender](https://github.com/zinadesign/google-forms-email-sender)** [![GitHub stars](https://img.shields.io/github/stars/zinadesign/google-forms-email-sender?style=social&color=white)](https://github.com/zinadesign/google-forms-email-sender/stargazers)  
+7. **[Google Forms Email Sender](https://github.com/zinadesign/google-forms-email-sender)** [![GitHub_Stars](https://img.shields.io/github/stars/zinadesign/google-forms-email-sender?style=social&color=white)](https://github.com/zinadesign/google-forms-email-sender/stargazers)  
    Lightweight Google Apps Script tool that binds to a Google Form and dispatches cleanly formatted HTML emails to predefined recipients whenever a new submission is received.
 
-8. **[Email Automation KPIs](https://github.com/Adriano-goes/email-automation-kpis)** [![GitHub stars](https://img.shields.io/github/stars/Adriano-goes/email-automation-kpis?style=social&color=white)](https://github.com/Adriano-goes/email-automation-kpis/stargazers)  
+8. **[Email Automation KPIs](https://github.com/Adriano-goes/email-automation-kpis)** [![GitHub_Stars](https://img.shields.io/github/stars/Adriano-goes/email-automation-kpis?style=social&color=white)](https://github.com/Adriano-goes/email-automation-kpis/stargazers)  
    Reference architecture combining Google Forms, Google Sheets, Make, Gmail, and Power BI. Logs delivery status, SMTP errors, and quota limits to an `Automation_Log` sheet with rich visual telemetry on success/failure metrics.
 
-9. **[Automatic Formatted Mail Sending by Google Apps Script](https://github.com/saidulislam00/Automatic-Formatted-Mail-Sending-by-Google-Apps-Script)** [![GitHub stars](https://img.shields.io/github/stars/saidulislam00/Automatic-Formatted-Mail-Sending-by-Google-Apps-Script?style=social&color=white)](https://github.com/saidulislam00/Automatic-Formatted-Mail-Sending-by-Google-Apps-Script/stargazers)  
+9. **[Automatic Formatted Mail Sending by Google Apps Script](https://github.com/saidulislam00/Automatic-Formatted-Mail-Sending-by-Google-Apps-Script)** [![GitHub_Stars](https://img.shields.io/github/stars/saidulislam00/Automatic-Formatted-Mail-Sending-by-Google-Apps-Script?style=social&color=white)](https://github.com/saidulislam00/Automatic-Formatted-Mail-Sending-by-Google-Apps-Script/stargazers)  
    Turnkey Google Apps Script automating email notifications with dynamic Google Docs merge templates, spreadsheet status logging, and zero third-party subscription requirements.
 
 ---
@@ -94,7 +94,7 @@ Contributions, feature suggestions, and new open-source discoveries are warmly w
 
 1. 🍴 **Fork** this repository.
 2. 🌿 Create a descriptive feature branch: `git checkout -b feature/add-new-tool`.
-3. 📝 Add your tool with verified pricing, free tier parameters, and GitHub star badges following the existing table or list format.
+3. 📝 Add your tool with verified pricing, free tier parameters, and GitHub Stars_Badges following the existing table or list format.
 4. 💾 Commit your changes: `git commit -m "feat: add NewFormTool to SaaS/OSS list"`.
 5. 🚀 Push to the branch: `git push origin feature/add-new-tool`.
 6. 📬 Submit a **Pull Request** detailing why the tool should be included.
