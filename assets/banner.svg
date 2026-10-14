@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#050814"/>
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
+    </linearGradient>
+
+    <!-- Subtle glow filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="16" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="badgeGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .title-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      font-size: 38px;
+      fill: #ffffff;
+      letter-spacing: -0.5px;
+    }
+    .subtitle-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      fill: #94a3b8;
+    }
+    .pill-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 12px;
+      fill: #e2e8f0;
+    }
+    
+    /* Background subtle animated floating elements */
+    @keyframes floatSlow {
+      0% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(-12px) rotate(3deg); }
+      100% { transform: translateY(0px) rotate(0deg); }
+    }
+    @keyframes floatReverse {
+      0% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(14px) rotate(-3deg); }
+      100% { transform: translateY(0px) rotate(0deg); }
+    }
+    @keyframes pulsePulse {
+      0% { opacity: 0.25; transform: scale(0.96); }
+      50% { opacity: 0.5; transform: scale(1.04); }
+      100% { opacity: 0.25; transform: scale(0.96); }
+    }
+    @keyframes dashCycle {
+      to { stroke-dashoffset: -100; }
+    }
+
+    .floater-1 {
+      animation: floatSlow 7s ease-in-out infinite;
+      transform-origin: center;
+    }
+    .floater-2 {
+      animation: floatReverse 8s ease-in-out infinite;
+      transform-origin: center;
+    }
+    .pulse-orb {
+      animation: pulsePulse 5s ease-in-out infinite;
+      transform-origin: center;
+    }
+    .stream-line {
+      stroke-dasharray: 8, 8;
+      animation: dashCycle 4s linear infinite;
+    }
+  </style>
+
+  <!-- Background Base Canvas -->
+  <rect width="1200" height="340" rx="16" fill="url(#bgGrad)"/>
+  <rect width="1198" height="338" x="1" y="1" rx="15" fill="none" stroke="#334155" stroke-width="1.5" stroke-opacity="0.6"/>
+
+  <!-- DYNAMIC BACKGROUND ELEMENTS (Deep Background Layer) -->
+  <g class="pulse-orb" opacity="0.35">
+    <circle cx="150" cy="80" r="130" fill="#38bdf8" filter="url(#glow)"/>
+    <circle cx="1060" cy="240" r="150" fill="#a855f7" filter="url(#glow)"/>
+    <circle cx="850" cy="60" r="100" fill="#6366f1" filter="url(#glow)"/>
+  </g>
+
+  <!-- Animated Stream Lines in Background -->
+  <g opacity="0.25">
+    <path class="stream-line" d="M 50 280 C 300 240, 500 320, 850 270 C 1000 250, 1100 290, 1180 270" fill="none" stroke="#38bdf8" stroke-width="2.5"/>
+    <path class="stream-line" d="M 30 70 C 350 120, 650 40, 950 110 C 1050 130, 1120 90, 1170 100" fill="none" stroke="#c084fc" stroke-width="2" style="animation-duration: 6s;"/>
+  </g>
+
+  <!-- Background Floating Decorative Geometry (Floater 1 & 2) -->
+  <g class="floater-1" opacity="0.3">
+    <!-- Schematic Form Card -->
+    <rect x="70" y="170" width="130" height="90" rx="10" fill="url(#cardGrad)" stroke="#38bdf8" stroke-width="1.5"/>
+    <line x1="85" y1="190" x2="140" y2="190" stroke="#38bdf8" stroke-width="3" stroke-linecap="round"/>
+    <line x1="85" y1="210" x2="175" y2="210" stroke="#64748b" stroke-width="2" stroke-linecap="round"/>
+    <line x1="85" y1="225" x2="155" y2="225" stroke="#64748b" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="170" cy="242" r="5" fill="#38bdf8"/>
+  </g>
+
+  <g class="floater-2" opacity="0.35">
+    <!-- Schematic Email / Approval Card -->
+    <rect x="990" y="60" width="140" height="95" rx="10" fill="url(#cardGrad)" stroke="#c084fc" stroke-width="1.5"/>
+    <path d="M 1005 82 L 1060 115 L 1115 82" fill="none" stroke="#c084fc" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="1005" y1="130" x2="1080" y2="130" stroke="#64748b" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="1105" cy="130" r="6" fill="#34d399"/>
+  </g>
+
+  <!-- FOREGROUND CONTENT: Header, Brand, Pills (Clear, crisp, perfectly readable) -->
+  <g transform="translate(60, 50)">
+    
+    <!-- Category Pill Badge -->
+    <g transform="translate(0, 15)">
+      <rect width="280" height="30" rx="15" fill="#1e293b" stroke="#3b82f6" stroke-width="1.5"/>
+      <circle cx="16" cy="15" r="5" fill="#38bdf8"/>
+      <text x="32" y="20" class="pill-text" fill="#93c5fd">⚡ FORM AUTOMATION &amp; WORKFLOWS</text>
+    </g>
+
+    <!-- Main Title -->
+    <g transform="translate(0, 82)">
+      <text class="title-text">
+        <tspan fill="#ffffff">Awesome </tspan>
+        <tspan fill="url(#accentGrad)">Email Notifications</tspan>
+        <tspan fill="#ffffff"> for Google Forms</tspan>
+      </text>
+    </g>
+
+    <!-- Subtitle / Tagline -->
+    <g transform="translate(0, 120)">
+      <text class="subtitle-text">
+        Curated SaaS Platforms, Add-ons, Open-Source Engines &amp; Google Apps Scripts
+      </text>
+      <text x="0" y="24" class="subtitle-text" fill="#64748b" font-size="14px">
+        Automate alerts, conditional multi-step approvals, PDF reports, and real-time form response dispatch
+      </text>
+    </g>
+
+    <!-- Feature Tag Pills in Foreground -->
+    <g transform="translate(0, 185)">
+      <!-- Pill 1 -->
+      <g transform="translate(0, 0)">
+        <rect width="160" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1.2"/>
+        <text x="14" y="21" class="pill-text">📩 Instant Form Alerts</text>
+      </g>
+      <!-- Pill 2 -->
+      <g transform="translate(172, 0)">
+        <rect width="180" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1.2"/>
+        <text x="14" y="21" class="pill-text">🔀 Multi-Step Approvals</text>
+      </g>
+      <!-- Pill 3 -->
+      <g transform="translate(364, 0)">
+        <rect width="168" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1.2"/>
+        <text x="14" y="21" class="pill-text">📄 PDF / Doc Merges</text>
+      </g>
+      <!-- Pill 4 -->
+      <g transform="translate(544, 0)">
+        <rect width="176" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1.2"/>
+        <text x="14" y="21" class="pill-text">🌐 Open Source &amp; Scripts</text>
+      </g>
+      <!-- Pill 5 -->
+      <g transform="translate(732, 0)">
+        <rect width="140" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1.2"/>
+        <text x="14" y="21" class="pill-text">📊 Market Matrix</text>
+      </g>
+    </g>
+
+  </g>
+</svg>
